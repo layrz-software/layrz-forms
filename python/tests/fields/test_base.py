@@ -73,7 +73,7 @@ class TestCustomFieldSubclass:
     class BadField(Field):
       """Custom field with wrong signature."""
 
-      def validate(self, key: str) -> None:  # ty: ignore[invalid-method-override]
+      def validate(self, key: str) -> None:  # ty: ignore[incompatible-method-override]
         """Validate method with missing parameter."""
         pass
 
@@ -99,7 +99,7 @@ class TestCustomFieldSubclass:
         value: Any,
         errors: ErrorsType,
         extra: str,
-      ) -> None:  # ty: ignore[invalid-method-override]
+      ) -> None:  # ty: ignore[incompatible-method-override]
         """Validate method with extra parameter."""
         pass
 
@@ -119,12 +119,12 @@ class TestCustomFieldSubclass:
     class BadField(Field):
       """Custom field with wrong parameter names."""
 
-      def validate(
+      def validate(  # ty: ignore[lost-keyword-for-regular-parameter]
         self,
         name: str,
         val: Any,
         err: ErrorsType,
-      ) -> None:  # ty: ignore[invalid-method-override]
+      ) -> None:
         """Validate method with wrong parameter names."""
         pass
 
