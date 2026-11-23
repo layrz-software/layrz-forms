@@ -5,7 +5,7 @@ A form validation library for Go with a simple API inspired by Django Forms. Val
 ## Install
 
 ```bash
-go get github.com/goldenm-software/layrz-forms/go
+go get github.com/layrz-software/layrz-forms/go
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	layrz "github.com/goldenm-software/layrz-forms/go"
+	layrz "github.com/layrz-software/layrz-forms/go"
 )
 
 type Address struct {

@@ -284,4 +284,4 @@ class TestFormErrorsPropertyCallable:
     errors = form.errors
     # errors is a dict, not callable
     with pytest.raises(TypeError):
-      errors()  # ty: ignore[call-non-callable]
+      errors()  # ty: ignore[not-callable]

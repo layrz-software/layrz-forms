@@ -1,6 +1,6 @@
 [project]
 name = "layrz-forms"
-version = "3.0.0"
+version = "3.0.1"
 description = "Layrz forms and tools for Python"
 authors = [{ name = "Golden M, Inc.", email = "software@goldenm.com" }]
 requires-python = ">=3.14"
@@ -26,8 +26,8 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/goldenm-software/layrz-forms"
-Changelog = "https://github.com/goldenm-software/layrz-forms/blob/main/CHANGELOG.md"
+Repository = "https://github.com/layrz-software/layrz-forms"
+Changelog = "https://github.com/layrz-software/layrz-forms/blob/main/CHANGELOG.md"
 
 [build-system]
 requires = ["setuptools", "setuptools-scm"]

@@ -10,7 +10,7 @@ layrz-forms is a struct validation library. A form is a pointer to a struct with
 ## Import and entry points
 
 ```go
-import "github.com/goldenm-software/layrz-forms/go/v3"
+import "github.com/layrz-software/layrz-forms/go/v3"
 ```
 
 **Key exports:**
@@ -520,7 +520,7 @@ After writing a form, run `go vet ./...` and `go test ./...` to confirm no compi
 package main
 
 import (
-    "github.com/goldenm-software/layrz-forms/go/v3"
+    "github.com/layrz-software/layrz-forms/go/v3"
 )
 
 type Address struct {

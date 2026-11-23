@@ -1,12 +1,12 @@
 {
   "name": "layrz-forms",
   "description": "Claude Code skills for layrz-forms library",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": {
     "name": "Golden M, Inc.",
-    "url": "https://github.com/goldenm-software"
+    "url": "https://github.com/layrz-software"
   },
-  "repository": "https://github.com/goldenm-software/layrz-forms",
+  "repository": "https://github.com/layrz-software/layrz-forms",
   "license": "MIT",
   "skills": "./.claude/skills/"
 }
