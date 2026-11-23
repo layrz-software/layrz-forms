@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.0.2
+
+### Documentation
+
+- The Go README install and import examples now use the `/v3` module path (`github.com/layrz-software/layrz-forms/go/v3`).
+
 ## 3.0.1
 
 ### Changed
