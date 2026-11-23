@@ -1,5 +1,21 @@
 # Changelog
 
+## 3.0.1
+
+### Changed
+
+- **Repository and module path moved to `github.com/layrz-software/...`**: The GitHub organization was renamed from `goldenm-software` to `layrz-software`. The Go module path is now `github.com/layrz-software/layrz-forms/go/v3`; Go consumers must update their import paths and `go.mod` requirements. Tags published before 3.0.1 still declare the old module path and cannot be consumed under the new one.
+- Updated repository, homepage and documentation URLs, CI workflow references and the Claude plugin metadata to the new organization.
+
+### Dependencies
+
+- Upgraded Python dependencies to their latest compatible versions (pydantic 2.14, strawberry-graphql 0.341, pytest 9.2, ruff 0.17, ty 0.0.108, among others).
+- The Go module has no third-party dependencies; nothing to upgrade there.
+
+### Internal
+
+- Updated `ty: ignore` directives in the Python tests to the renamed `ty` rule names.
+
 ## 3.0.0
 
 ### Breaking changes
