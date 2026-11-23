@@ -48,7 +48,7 @@ Deployment to PyPI is tag-triggered via `.github/workflows/deploy.yaml` — push
 
 ```
 python/    Python library (layrz_forms) — the REFERENCE implementation
-go/        Go library (module github.com/goldenm-software/layrz-forms/go/v3)
+go/        Go library (module github.com/layrz-software/layrz-forms/go/v3)
 vectors/   shared cross-language test vectors — 96 cases, the spec both sides must satisfy
 .claude/   Claude Code plugin: form-builder router + py/go-form-builder skills
 ```

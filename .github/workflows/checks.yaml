@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - uses: goldenm-software/layrz-actions/.github/actions/check-python@v1
+      - uses: layrz-software/layrz-actions/.github/actions/check-python@v1
         id: check-python
         with:
           working-directory: ./python
@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: goldenm-software/layrz-actions/.github/actions/check-go@v1
+      - uses: layrz-software/layrz-actions/.github/actions/check-go@v1
         id: check-go
         with:
           working-directory: ./go
@@ -54,7 +54,7 @@ jobs:
           name: go-coverage-${{ github.run_id }}
           path: go-coverage
 
-      - uses: goldenm-software/layrz-actions/.github/actions/coverage-comment@v1
+      - uses: layrz-software/layrz-actions/.github/actions/coverage-comment@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           enable-python: true
@@ -62,7 +62,7 @@ jobs:
           enable-go: true
           go-coverage-path: go-coverage/lcov.info
 
-      - uses: goldenm-software/layrz-actions/.github/actions/coverage-check@v1
+      - uses: layrz-software/layrz-actions/.github/actions/coverage-check@v1
         with:
           enable-python: true
           python-coverage-path: python-coverage/lcov.info
@@ -76,7 +76,7 @@ jobs:
       - uses: actions/checkout@v6
         with: { fetch-depth: 0 }
 
-      - uses: goldenm-software/layrz-actions/.github/actions/changelog@v1
+      - uses: layrz-software/layrz-actions/.github/actions/changelog@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           post-comment: true

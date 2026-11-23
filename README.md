@@ -1,7 +1,7 @@
 # Layrz Forms
 
 [![PyPI](https://img.shields.io/pypi/v/layrz_forms.svg)](https://pypi.org/project/layrz-forms/)
-[![GitHub license](https://img.shields.io/github/license/goldenm-software/layrz-forms?logo=github)](https://github.com/goldenm-software/layrz-forms)
+[![GitHub license](https://img.shields.io/github/license/layrz-software/layrz-forms?logo=github)](https://github.com/layrz-software/layrz-forms)
 
 Form validation for Python and Go — a simpler alternative to Django Forms, implemented twice against
 one shared spec.
@@ -16,7 +16,7 @@ This is a monorepo. Each implementation documents itself:
 | | Package | Documentation |
 |---|---|---|
 | **Python** | `pip install layrz-forms` | **[python/README.md](python/README.md)** |
-| **Go** | `go get github.com/goldenm-software/layrz-forms/go/v3` | **[go/README.md](go/README.md)** |
+| **Go** | `go get github.com/layrz-software/layrz-forms/go/v3` | **[go/README.md](go/README.md)** |
 
 Start there — the two APIs are shaped differently, and each README is the full reference for its
 language.
@@ -25,7 +25,7 @@ language.
 
 ```
 python/    Python library (layrz_forms) — the reference implementation
-go/        Go library (github.com/goldenm-software/layrz-forms/go/v3)
+go/        Go library (github.com/layrz-software/layrz-forms/go/v3)
 vectors/   shared cross-language test vectors — the spec both sides satisfy
 .claude/   Claude Code plugin (see below)
 ```
@@ -58,7 +58,7 @@ come up. The Go skill also covers interoperating with `graph-gophers/graphql-go`
 Add this repository as a Claude Code plugin marketplace, then install the plugin:
 
 ```bash
-/plugin marketplace add goldenm-software/layrz-forms
+/plugin marketplace add layrz-software/layrz-forms
 ```
 
 Once the marketplace is added, install the plugin from the **Discover** tab in `/plugin`, or run:
@@ -90,7 +90,7 @@ For a single language, use `make -C python <target>` or `make -C go <target>`.
 
 ### Why is this package called `layrz-forms`?
 
-All packages developed by [Layrz](https://layrz.com) are prefixed with `layrz`, check out our other packages on [PyPi](https://pypi.org/user/layrz-software/) and [GitHub](https://github.com/goldenm-software).
+All packages developed by [Layrz](https://layrz.com) are prefixed with `layrz`, check out our other packages on [PyPi](https://pypi.org/user/layrz-software/) and [GitHub](https://github.com/layrz-software).
 
 ### Why this library exists?
 
@@ -102,19 +102,19 @@ Of course! We have multiple libraries (for Layrz or general purpose) that you ca
 
 ### I need to pay to use this package?
 
-**No!** This library is free and open source, you can use it in your projects without any cost, but if you want to support us, give us an star on our [Repository](https://github.com/goldenm-software/layrz-forms)!
+**No!** This library is free and open source, you can use it in your projects without any cost, but if you want to support us, give us an star on our [Repository](https://github.com/layrz-software/layrz-forms)!
 
 ### Can I contribute to this package?
 
-**Yes!** We are open to contributions, feel free to open a pull request or an issue on the [Repository](https://github.com/goldenm-software/layrz-forms)!
+**Yes!** We are open to contributions, feel free to open a pull request or an issue on the [Repository](https://github.com/layrz-software/layrz-forms)!
 
 ### I have a question, how can I contact you?
 
-If you need more assistance, you open an issue on the [Repository](https://github.com/goldenm-software/layrz-forms) and we're happy to help you :)
+If you need more assistance, you open an issue on the [Repository](https://github.com/layrz-software/layrz-forms) and we're happy to help you :)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/goldenm-software/layrz-forms/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/layrz-software/layrz-forms/blob/main/LICENSE) file for details.
 
 This project is maintained by [Golden M](https://goldenm.com) with authorization of [Layrz LTD](https://layrz.com).
 
